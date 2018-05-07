@@ -10,10 +10,10 @@ import string
 gh_user = str(os.environ['GH_USER'])
 gh_pass = str(os.environ['GH_PASS'])
 git = Github(gh_user, gh_pass)
-repo = git.get_user().get_repo('probot-test')
+repo = git.get_user().get_repo('github-PyReq-updater')
 owner = repo.owner.login
 master = repo.get_branch('master')
-ci_trig = "Shebang! normal"
+ci_trig = "Automatically generated PR" # I personally use PR Comments to trigger CI
 req_list = []
 
 
