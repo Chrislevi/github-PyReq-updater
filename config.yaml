@@ -1,0 +1,8 @@
+user: 'USER'
+pass: 'PASSWORD'
+org: 'ORG'
+repo: 'REPO'
+master: 'master'
+pyreq_master: 'pyreq_merge_branch'
+ci_phrase: 'Raus!' # Using GHPRB trigger phase
+skip_packages: 'celery, requests' # Comma seperated example
