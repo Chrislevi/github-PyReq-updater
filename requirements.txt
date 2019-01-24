@@ -1,3 +1,5 @@
-pur
-pygithub
-pyyaml
+PyGithub==1.43.2
+pyupio==1.0.2
+PyYAML==3.13
+virtualenv==16.1.0
+cffi==1.11.5
